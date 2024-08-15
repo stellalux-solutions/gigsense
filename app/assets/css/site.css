@@ -1,0 +1,58 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+    font-size: 100%;
+    color: #002832;
+}
+
+body {
+    background-color: #002832;
+    background-image: radial-gradient(rgba(255, 255, 255, .75), rgba(0, 16, 19, 0.75)),
+        url("../../assets/img/gigsense.png");
+}
+
+h1 {
+    text-shadow: 2px 4px 28px #FFF;
+    font-family: "Limelight", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.orbitron {
+    font-family: "Orbitron", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+a {
+    color: #EEE7D7;
+    text-decoration: none;
+}
+
+a:hover {
+    /* color: #15253C; */
+    text-decoration: underline #EEE7D7 !important;
+}
+
+a:focus {
+    color: #15253C;
+    text-decoration: underline #EEE7D7 !important;
+}
+
+a:focus-visible {
+    outline: dashed 1px #EEE7D7 !important;
+}
+
+@media (min-width: 350px) {
+    h1 {
+        font-size: 4rem;
+    }
+}
+
+@media (min-width: 900px) {
+    h1 {
+        font-size: 8rem;
+    }
+}
